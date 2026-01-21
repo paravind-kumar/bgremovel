@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Background Remover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>BgRemover AI</h2>
+</header>
+
+<main class="container">
+    <section class="left">
+        <h1>Remove Image Background</h1>
+        <p>
+            Upload your image and remove the background instantly using AI.
+            High-quality, fast and free.
+        </p>
+
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="removeBg()">Remove Background</button>
+
+        <div class="loader" id="loader"></div>
+    </section>
+
+    <section class="right">
+        <div class="image-box">
+            <img id="result" alt="Processed Image">
+        </div>
+        <a id="download" download="output.png">Download Image</a>
+    </section>
+</main>
+
+<footer>
+    © 2026 BgRemover AI. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
