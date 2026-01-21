@@ -1,5 +1,5 @@
 fastapi
 uvicorn
-rembg
-pillow
 python-multipart
+pillow
+rembg[cpu]
